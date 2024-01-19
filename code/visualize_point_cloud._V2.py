@@ -1,8 +1,7 @@
 import numpy as np
 import open3d as o3d
 
-#pcd = o3d.io.read_point_cloud("C:/Users/PC/Desktop/saidikamel/XYZ/222.pts")
-pcd = o3d.io.read_point_cloud("C:/Users/PC/Desktop/saidikamel/ICP/cloud_bin_2.pcd")
+pcd = o3d.io.read_point_cloud("path/to/ICP/cloud_bin_2.pcd")
 
 points = np.asarray(pcd.points)
 centre = [0, 0, 0]
