@@ -2,8 +2,7 @@ import numpy as np
 import open3d as o3d
 
 # Load a 3D point cloud from a file
-#pcd = o3d.io.read_point_cloud("C:/Users/PC/Desktop/saidikamel/XYZ/222.pts")
-pcd = o3d.io.read_point_cloud("C:/Users/PC/Desktop/saidikamel/ICP/cloud_bin_2.pcd")
+pcd = o3d.io.read_point_cloud("path/to/ICP/cloud_bin_2.pcd")
 
 
 
