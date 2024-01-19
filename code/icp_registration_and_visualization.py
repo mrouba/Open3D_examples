@@ -11,8 +11,8 @@ import numpy as np
 import open3d as o3d
 
 # Load two point clouds 
-pcd_1 = o3d.io.read_point_cloud("C:/Users/PC/Desktop/saidikamel/ICP/cloud_bin_2.pcd")
-pcd_2 = o3d.io.read_point_cloud("C:/Users/PC/Desktop/saidikamel/ICP/cloud_bin_1.pcd")
+pcd_1 = o3d.io.read_point_cloud("path/to/ICP/cloud_bin_2.pcd")
+pcd_2 = o3d.io.read_point_cloud("path/to/ICP/cloud_bin_1.pcd")
 
 # Use CTRL + Left click to pick point
 #Use Escape Key when you done picking points 
