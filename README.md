@@ -43,7 +43,7 @@ You can install Open3D using the following command:
 ```bash
 # Install
 pip install open3d       # or
-pip install open3d-cpu   # Smaller CPU only wheel on x86_64 Linux (v0.17+)
+pip install open3d-cpu   
 
 ```
 # Contact
